@@ -8,12 +8,13 @@
   
   <title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
 </head>
+
 <body>
   <div class="app">
     <div class="result">
@@ -26,31 +27,60 @@
       <p class="ResultP">  You scored higher than 65% of the people who have taken these tests.</p>
     </div>
     <div class="summary">
-      <h1 class="titreSummary">Summary</h1>
-      <div class="summaryDiv"id="Reaction">
-        Reaction
-        80 / 100
-      </div>
-      <div class="summaryDiv"id="Memory">
 
-        Memory
-        92 / 100
+      <h1 class="titreSummary">Summary</h1>
+
+      <div class="summaryDiv"id="Reaction">
+        <div class="img">
+          <img src="assets/images/icon-reaction.svg" alt="reaction" class="icone">
+          <p class="p1">Reaction</p>
+        </div>
+        <div class="point">
+          <p class="p2">80 / 100</p>
+        </div>
+        
+        
       </div>
+
+      <div class="summaryDiv"id="Memory">
+        <div class="img">
+          <img src="assets/images/icon-memory.svg" alt="memory" class="icone">
+          <p class="p1">Memory</p>
+        </div>
+        <div class="point">
+          <p class="p2">92 / 100</p>
+        </div> 
+      </div>
+
       <div class="summaryDiv"id="Verbal">
-        Verbal
-        61 / 100
+        <div class="img">
+          <img src="assets/images/icon-verbal.svg" alt="Verbal" class="icone">
+          <p class="p1">Verbal</p>
+        </div>
+        <div class="point">
+          <p class="p2">61 / 100</p>
+        </div>
+
       </div>
+
       <div class="summaryDiv"id="Visual">
-        Visual
-        72 / 100
+        <div class="img">
+          <img src="assets/images/icon-visual.svg" alt="visual" class="Visual">
+          <p class="p1">Visual</p>
+        </div>
+        <div class="point">
+          <p class="p2">72 / 100</p>
+        </div>
       </div>
+ 
       <a href="#">continue</a>
+ 
     </div>
   </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.linkedin.com/in/sarah-bourgeois-a4a098243/">Sarah Bourgeois</a>.
   </div>
 </body>
 </html>
