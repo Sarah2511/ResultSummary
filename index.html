@@ -2,85 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Results summary component</title>
-
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-
 </head>
-
 <body>
-  <div class="app">
-    <div class="result">
-      <h1 class="titreResult">Your Result</h1>
-      <div class="round">
-        <p class="largeNumber">76</p>
-        <p class="smallNumber">OF 100</p>
-      </div>
-      <h2>Great</h2>
-      <p class="ResultP">  You scored higher than 65% of the people who have taken these tests.</p>
-    </div>
-    <div class="summary">
+  <main>
+    
+    <section class="result">
+        <h2 class="result-title">Your Result</h2>
+        <div class="round">
+          <p class="large-number">76</p>
+          <p class="small-number">OF 100</p>
+        </div>
+        <h3>Great</h3>
+        <p class="result-description">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
 
-      <h1 class="titreSummary">Summary</h1>
+    <section class="summary">
+      <h2 class="summary-title">Summary</h2>
 
-      <div class="summaryDiv"id="Reaction">
+      <article id="Reaction" class="summary-item">
         <div class="img">
-          <img src="assets/images/icon-reaction.svg" alt="reaction" class="icone">
-          <p class="p1">Reaction</p>
+          <img src="assets/images/icon-reaction.svg" alt="reaction" class="icon">
+          <p class="label">Reaction</p>
         </div>
         <div class="point">
-          <p class="p2">80 / 100</p>
+          <p class="value">80 / 100</p>
         </div>
-        
-        
-      </div>
+      </article>
 
-      <div class="summaryDiv"id="Memory">
+      <article id="Memory" class="summary-item">
         <div class="img">
-          <img src="assets/images/icon-memory.svg" alt="memory" class="icone">
-          <p class="p1">Memory</p>
+          <img src="assets/images/icon-memory.svg" alt="memory" class="icon">
+          <p class="label">Memory</p>
         </div>
         <div class="point">
-          <p class="p2">92 / 100</p>
-        </div> 
-      </div>
+          <p class="value">92 / 100</p>
+        </div>
+      </article>
 
-      <div class="summaryDiv"id="Verbal">
+      <article id="Verbal" class="summary-item">
         <div class="img">
-          <img src="assets/images/icon-verbal.svg" alt="Verbal" class="icone">
-          <p class="p1">Verbal</p>
+          <img src="assets/images/icon-verbal.svg" alt="Verbal" class="icon">
+          <p class="label">Verbal</p>
         </div>
         <div class="point">
-          <p class="p2">61 / 100</p>
+          <p class="value">61 / 100</p>
         </div>
+      </article>
 
-      </div>
-
-      <div class="summaryDiv"id="Visual">
+      <article id="Visual" class="summary-item">
         <div class="img">
-          <img src="assets/images/icon-visual.svg" alt="visual" class="Visual">
-          <p class="p1">Visual</p>
+          <img src="assets/images/icon-visual.svg" alt="visual" class="icon">
+          <p class="label">Visual</p>
         </div>
         <div class="point">
-          <p class="p2">72 / 100</p>
+          <p class="value">72 / 100</p>
         </div>
-      </div>
- 
-      <a href="#">continue</a>
- 
-    </div>
-  </div>
+      </article>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://www.linkedin.com/in/sarah-bourgeois-a4a098243/">Sarah Bourgeois</a>.
-  </div>
+      <a href="#" class="continue-link">Continue</a>
+    </section>
+  </main>
+
+  <footer>
+    <p class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.linkedin.com/in/sarah-bourgeois-a4a098243/">Sarah Bourgeois</a>.</p>
+  </footer>
 </body>
 </html>
