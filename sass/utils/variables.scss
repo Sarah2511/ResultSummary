@@ -1,10 +1,9 @@
-/*typogrphy*/
+/*typography*/
 
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;800&display=swap');
 $font-family: 'Hanken Grotesk', sans-serif;
 
 /*Colors*/
-
 $Light-red: hsl(0, 100%, 67%);
 $Orangey-yellow: hsl(39, 100%, 56%);
 $Green-teal: hsl(166, 100%, 37%);
@@ -18,6 +17,15 @@ $Pale-blue: hsl(221, 100%, 96%);
 $Light-lavender: hsl(241, 100%, 89%);
 $Dark-gray-blue: hsl(224, 30%, 27%);
 
-/*Others*/
+//Linear gradient
+$background-result: linear-gradient($Light-slate-blue, $Light-royal-blue);
+$background-round: linear-gradient($Violet-blue, $Persian-blue);
 
+// Margin 
+$margin : 7%;
+$margin2: 4% 0;
+$marginMedia: 2%;
+
+/*Others*/
 $border-radius: 30px;
+$box-shadow :0px 0px 20px rgba(0, 0, 0, 0.3);

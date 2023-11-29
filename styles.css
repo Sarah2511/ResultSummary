@@ -3,11 +3,240 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: all 200ms;
+  text-decoration: none;
 }
 
-/*typogrphy*/
+/*typography*/
 /*Colors*/
 /*Others*/
+body {
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+body main .result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  height: 100%;
+  border-radius: 30px;
+}
+body main .result article {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  padding: 2%;
+}
+body main .result article h2 {
+  font-size: 1.2rem;
+  color: hsl(241, 100%, 89%);
+  margin: 7%;
+}
+body main .result article .round {
+  border-radius: 50%;
+  padding: 10%;
+  background: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+  width: 50%;
+  text-align: center;
+  margin: 7%;
+}
+body main .result article .round .large-number {
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+  margin: 7%;
+}
+body main .result article .round .small-number {
+  font-size: 1rem;
+  color: hsl(241, 100%, 89%);
+  margin: 7%;
+}
+body main .result article h3 {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.863);
+  margin: 7%;
+}
+body main .result article p {
+  color: rgba(255, 255, 255, 0.63);
+  text-align: center;
+  width: 75%;
+  margin: 7%;
+}
+body main .summary {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  padding: 2%;
+}
+body main .summary .summary-title {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.767);
+  margin: 4% 0;
+}
+body main .summary .summary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 6% 5%;
+  margin: 4% 0;
+  border-radius: 5px;
+}
+body main .summary .summary-item .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .summary .summary-item .point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .summary #Reaction {
+  font-size: 1rem;
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+body main .summary #Reaction .img img {
+  margin: 2%;
+}
+body main .summary #Reaction .img p {
+  margin: 2%;
+  color: hsl(0, 100%, 67%);
+}
+body main .summary #Reaction .point {
+  width: 30%;
+}
+body main .summary #Reaction .point .value {
+  color: rgba(0, 0, 0, 0.918);
+  margin: 2%;
+}
+body main .summary #Reaction .point .cent {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 2%;
+}
+body main .summary #Memory {
+  font-size: 1rem;
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+body main .summary #Memory .img img {
+  margin: 2%;
+}
+body main .summary #Memory .img p {
+  margin: 2%;
+  color: hsl(39, 100%, 56%);
+}
+body main .summary #Memory .point {
+  width: 30%;
+}
+body main .summary #Memory .point .value {
+  color: rgba(0, 0, 0, 0.918);
+  margin: 2%;
+}
+body main .summary #Memory .point .cent {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 2%;
+}
+body main .summary #Verbal {
+  font-size: 1rem;
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+body main .summary #Verbal .img img {
+  margin: 2%;
+}
+body main .summary #Verbal .img p {
+  margin: 2%;
+  color: hsl(166, 100%, 37%);
+}
+body main .summary #Verbal .point {
+  width: 30%;
+}
+body main .summary #Verbal .point .value {
+  color: rgba(0, 0, 0, 0.918);
+  margin: 2%;
+}
+body main .summary #Verbal .point .cent {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 2%;
+}
+body main .summary #Visual {
+  font-size: 1rem;
+  background-color: hsla(234, 85%, 45%, 0.1);
+}
+body main .summary #Visual .img img {
+  margin: 2%;
+}
+body main .summary #Visual .img p {
+  margin: 2%;
+  color: hsl(234, 85%, 45%);
+}
+body main .summary #Visual .point {
+  width: 30%;
+}
+body main .summary #Visual .point .value {
+  color: rgba(0, 0, 0, 0.918);
+  margin: 2%;
+}
+body main .summary #Visual .point .cent {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 2%;
+}
+body main .summary .continue-link {
+  width: 100%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(224, 30%, 27%);
+  color: rgba(255, 255, 255, 0.856);
+  padding: 5%;
+  font-size: 1.2 rem;
+  margin: 4% 0;
+}
+body footer {
+  margin-top: 2%;
+}
+
+@media screen and (max-width: 675px) {
+  body main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  body main .result {
+    margin: 1%;
+    width: 100%;
+  }
+  body main .result article {
+    padding: 1%;
+  }
+  body main .result article h2 {
+    margin: 2%;
+  }
+  body main .summary {
+    margin: 1%;
+    width: 100%;
+  }
+  body footer {
+    text-align: center;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

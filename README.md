@@ -4,7 +4,8 @@ This is a challenge completed using the [Frontend Mentor](https://www.frontendme
 
 ## Overview
 
-![overview]()
+  ![Desktop](assets/capture/desktop.png)
+  ![Mobile] ()
 
 ## Link to the Solution
 
@@ -13,7 +14,8 @@ This is a challenge completed using the [Frontend Mentor](https://www.frontendme
 ## Implementation
 
 - Semantic HTML
-
+- SASS 
+- Responsive
 
 ## Author
 
