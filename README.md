@@ -5,7 +5,7 @@ This is a challenge completed using the [Frontend Mentor](https://www.frontendme
 ## Overview
 
   ![Desktop](assets/capture/desktop.png)
-  ![Mobile] (assets/capture/mobile.png)
+  ![Mobile](assets/capture/mobile.png)
 
 ## Link to the Solution
 
